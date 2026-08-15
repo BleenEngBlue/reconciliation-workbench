@@ -1,0 +1,57 @@
+[
+ {
+  "type": "WRONG_RATE",
+  "txn_id": "US-00007",
+  "jurisdiction": "California (state)"
+ },
+ {
+  "type": "WRONG_RATE",
+  "txn_id": "US-00052",
+  "jurisdiction": "Denver, CO (home rule)"
+ },
+ {
+  "type": "AMOUNT_MISMATCH",
+  "txn_id": "US-00013",
+  "jurisdiction": "California (state)"
+ },
+ {
+  "type": "AMOUNT_MISMATCH",
+  "txn_id": "US-00061",
+  "jurisdiction": "Denver, CO (home rule)"
+ },
+ {
+  "type": "DUPLICATE_INVOICE",
+  "txn_id": "US-00021",
+  "jurisdiction": "California (state)"
+ },
+ {
+  "type": "MISSING_EINVOICE",
+  "txn_id": "FR-00009",
+  "jurisdiction": "France (CTC / e-invoice)"
+ },
+ {
+  "type": "MISSING_EINVOICE",
+  "txn_id": "FR-00027",
+  "jurisdiction": "France (CTC / e-invoice)"
+ },
+ {
+  "type": "ORPHAN_REPORT",
+  "txn_id": "FR-99999",
+  "jurisdiction": "France (CTC / e-invoice)"
+ },
+ {
+  "type": "RETURN_UNDERSTATED",
+  "txn_id": null,
+  "jurisdiction": "Denver, CO (home rule)"
+ },
+ {
+  "type": "MISSING_EINVOICE",
+  "txn_id": "DE-00011",
+  "jurisdiction": "Germany (CTC 2027-28)"
+ },
+ {
+  "type": "WRONG_RATE",
+  "txn_id": "DE-00023",
+  "jurisdiction": "Germany (CTC 2027-28)"
+ }
+]

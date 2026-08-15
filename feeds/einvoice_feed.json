@@ -1,0 +1,551 @@
+{
+ "feedId": "einvoice-mock-2026-07",
+ "documents": [
+  {
+   "documentId": "DOC-FR-00001",
+   "invoiceNumber": "FA-00001",
+   "sourceRef": "FR-00001",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 15948.67,
+    "tax": 3189.73
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00002",
+   "invoiceNumber": "FA-00002",
+   "sourceRef": "FR-00002",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 4967.59,
+    "tax": 993.52
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00003",
+   "invoiceNumber": "FA-00003",
+   "sourceRef": "FR-00003",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 11155.51,
+    "tax": 2231.1
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00004",
+   "invoiceNumber": "FA-00004",
+   "sourceRef": "FR-00004",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 8666.33,
+    "tax": 1733.27
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00005",
+   "invoiceNumber": "FA-00005",
+   "sourceRef": "FR-00005",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 2783.9,
+    "tax": 556.78
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00006",
+   "invoiceNumber": "FA-00006",
+   "sourceRef": "FR-00006",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 3993.81,
+    "tax": 798.76
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00007",
+   "invoiceNumber": "FA-00007",
+   "sourceRef": "FR-00007",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 23736.48,
+    "tax": 4747.3
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00008",
+   "invoiceNumber": "FA-00008",
+   "sourceRef": "FR-00008",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 881.15,
+    "tax": 176.23
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00010",
+   "invoiceNumber": "FA-00010",
+   "sourceRef": "FR-00010",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 3926.62,
+    "tax": 785.32
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00011",
+   "invoiceNumber": "FA-00011",
+   "sourceRef": "FR-00011",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 23897.83,
+    "tax": 4779.57
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00012",
+   "invoiceNumber": "FA-00012",
+   "sourceRef": "FR-00012",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 9263.05,
+    "tax": 1852.61
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00013",
+   "invoiceNumber": "FA-00013",
+   "sourceRef": "FR-00013",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 3105.0,
+    "tax": 621.0
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00014",
+   "invoiceNumber": "FA-00014",
+   "sourceRef": "FR-00014",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 24829.29,
+    "tax": 4965.86
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00015",
+   "invoiceNumber": "FA-00015",
+   "sourceRef": "FR-00015",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 12139.78,
+    "tax": 2427.96
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00016",
+   "invoiceNumber": "FA-00016",
+   "sourceRef": "FR-00016",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 2375.65,
+    "tax": 475.13
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00017",
+   "invoiceNumber": "FA-00017",
+   "sourceRef": "FR-00017",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 18804.43,
+    "tax": 3760.89
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00018",
+   "invoiceNumber": "FA-00018",
+   "sourceRef": "FR-00018",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 6802.73,
+    "tax": 1360.55
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00019",
+   "invoiceNumber": "FA-00019",
+   "sourceRef": "FR-00019",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 17378.41,
+    "tax": 3475.68
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00020",
+   "invoiceNumber": "FA-00020",
+   "sourceRef": "FR-00020",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 821.62,
+    "tax": 164.32
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00021",
+   "invoiceNumber": "FA-00021",
+   "sourceRef": "FR-00021",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 9203.37,
+    "tax": 1840.67
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00022",
+   "invoiceNumber": "FA-00022",
+   "sourceRef": "FR-00022",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 13693.52,
+    "tax": 2738.7
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00023",
+   "invoiceNumber": "FA-00023",
+   "sourceRef": "FR-00023",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 19014.04,
+    "tax": 3802.81
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00024",
+   "invoiceNumber": "FA-00024",
+   "sourceRef": "FR-00024",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 24467.91,
+    "tax": 4893.58
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00025",
+   "invoiceNumber": "FA-00025",
+   "sourceRef": "FR-00025",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 2502.51,
+    "tax": 500.5
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00026",
+   "invoiceNumber": "FA-00026",
+   "sourceRef": "FR-00026",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 6712.6,
+    "tax": 1342.52
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00028",
+   "invoiceNumber": "FA-00028",
+   "sourceRef": "FR-00028",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 19355.46,
+    "tax": 3871.09
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00029",
+   "invoiceNumber": "FA-00029",
+   "sourceRef": "FR-00029",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 13653.79,
+    "tax": 2730.76
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00030",
+   "invoiceNumber": "FA-00030",
+   "sourceRef": "FR-00030",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 8409.21,
+    "tax": 1681.84
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00031",
+   "invoiceNumber": "FA-00031",
+   "sourceRef": "FR-00031",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 15427.4,
+    "tax": 3085.48
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00032",
+   "invoiceNumber": "FA-00032",
+   "sourceRef": "FR-00032",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 24626.92,
+    "tax": 4925.38
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00033",
+   "invoiceNumber": "FA-00033",
+   "sourceRef": "FR-00033",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 5079.86,
+    "tax": 1015.97
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00034",
+   "invoiceNumber": "FA-00034",
+   "sourceRef": "FR-00034",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 20503.74,
+    "tax": 4100.75
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00035",
+   "invoiceNumber": "FA-00035",
+   "sourceRef": "FR-00035",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 20132.32,
+    "tax": 4026.46
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00036",
+   "invoiceNumber": "FA-00036",
+   "sourceRef": "FR-00036",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 13061.56,
+    "tax": 2612.31
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00037",
+   "invoiceNumber": "FA-00037",
+   "sourceRef": "FR-00037",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 18342.35,
+    "tax": 3668.47
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00038",
+   "invoiceNumber": "FA-00038",
+   "sourceRef": "FR-00038",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 19805.32,
+    "tax": 3961.06
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00039",
+   "invoiceNumber": "FA-00039",
+   "sourceRef": "FR-00039",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 6664.57,
+    "tax": 1332.91
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-FR-00040",
+   "invoiceNumber": "FA-00040",
+   "sourceRef": "FR-00040",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 15227.19,
+    "tax": 3045.44
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-GHOST-00001",
+   "invoiceNumber": "FA-99999",
+   "sourceRef": "FR-99999",
+   "sellerParty": {
+    "name": "Atlas Beverages France SAS",
+    "country": "FR"
+   },
+   "totals": {
+    "net": 3120.0,
+    "tax": 0.0
+   },
+   "clearanceStatus": "CLEARED"
+  }
+ ]
+}

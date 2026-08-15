@@ -1,0 +1,7 @@
+# Pinned per security review SEC-05 (Aug 6, 2026).
+# Gradio has an active CVE history (path traversal, CORS bypass, HF-Spaces
+# file-read chain, CVE-2025-48889 file copy); 6.22.0 is current as of
+# Jul 31, 2026 — re-check advisories the day you deploy.
+gradio>=6.22.0,<7
+pandas>=2.2,<4
+openai>=1.0,<2   # optional — only needed for RECON_USE_LLM=1 mode

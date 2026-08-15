@@ -1,0 +1,411 @@
+{
+ "feedId": "einvoice-mock-DE-2026-07",
+ "documents": [
+  {
+   "documentId": "DOC-DE-00001",
+   "invoiceNumber": "RG-00001",
+   "sourceRef": "DE-00001",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 11318.89,
+    "tax": 2150.59
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00002",
+   "invoiceNumber": "RG-00002",
+   "sourceRef": "DE-00002",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 24703.94,
+    "tax": 4693.75
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00003",
+   "invoiceNumber": "RG-00003",
+   "sourceRef": "DE-00003",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 2243.32,
+    "tax": 426.23
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00004",
+   "invoiceNumber": "RG-00004",
+   "sourceRef": "DE-00004",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 5864.43,
+    "tax": 1114.24
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00005",
+   "invoiceNumber": "RG-00005",
+   "sourceRef": "DE-00005",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 8609.0,
+    "tax": 1635.71
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00006",
+   "invoiceNumber": "RG-00006",
+   "sourceRef": "DE-00006",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 15695.64,
+    "tax": 2982.17
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00007",
+   "invoiceNumber": "RG-00007",
+   "sourceRef": "DE-00007",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 21050.78,
+    "tax": 3999.65
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00008",
+   "invoiceNumber": "RG-00008",
+   "sourceRef": "DE-00008",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 22752.68,
+    "tax": 4323.01
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00009",
+   "invoiceNumber": "RG-00009",
+   "sourceRef": "DE-00009",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 20041.18,
+    "tax": 3807.82
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00010",
+   "invoiceNumber": "RG-00010",
+   "sourceRef": "DE-00010",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 20907.56,
+    "tax": 3972.44
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00012",
+   "invoiceNumber": "RG-00012",
+   "sourceRef": "DE-00012",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 17859.45,
+    "tax": 3393.3
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00013",
+   "invoiceNumber": "RG-00013",
+   "sourceRef": "DE-00013",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 12081.31,
+    "tax": 2295.45
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00014",
+   "invoiceNumber": "RG-00014",
+   "sourceRef": "DE-00014",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 10989.65,
+    "tax": 2088.03
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00015",
+   "invoiceNumber": "RG-00015",
+   "sourceRef": "DE-00015",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 8479.8,
+    "tax": 1611.16
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00016",
+   "invoiceNumber": "RG-00016",
+   "sourceRef": "DE-00016",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 23667.59,
+    "tax": 4496.84
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00017",
+   "invoiceNumber": "RG-00017",
+   "sourceRef": "DE-00017",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 10047.0,
+    "tax": 1908.93
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00018",
+   "invoiceNumber": "RG-00018",
+   "sourceRef": "DE-00018",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 18647.98,
+    "tax": 3543.12
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00019",
+   "invoiceNumber": "RG-00019",
+   "sourceRef": "DE-00019",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 18188.77,
+    "tax": 3455.87
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00020",
+   "invoiceNumber": "RG-00020",
+   "sourceRef": "DE-00020",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 24829.53,
+    "tax": 4717.61
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00021",
+   "invoiceNumber": "RG-00021",
+   "sourceRef": "DE-00021",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 3990.98,
+    "tax": 758.29
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00022",
+   "invoiceNumber": "RG-00022",
+   "sourceRef": "DE-00022",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 20210.92,
+    "tax": 3840.07
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00023",
+   "invoiceNumber": "RG-00023",
+   "sourceRef": "DE-00023",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 15386.44,
+    "tax": 2923.42
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00024",
+   "invoiceNumber": "RG-00024",
+   "sourceRef": "DE-00024",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 24512.57,
+    "tax": 4657.39
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00025",
+   "invoiceNumber": "RG-00025",
+   "sourceRef": "DE-00025",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 23452.32,
+    "tax": 4455.94
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00026",
+   "invoiceNumber": "RG-00026",
+   "sourceRef": "DE-00026",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 13829.34,
+    "tax": 2627.57
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00027",
+   "invoiceNumber": "RG-00027",
+   "sourceRef": "DE-00027",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 779.57,
+    "tax": 148.12
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00028",
+   "invoiceNumber": "RG-00028",
+   "sourceRef": "DE-00028",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 24279.53,
+    "tax": 4613.11
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00029",
+   "invoiceNumber": "RG-00029",
+   "sourceRef": "DE-00029",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 2793.61,
+    "tax": 530.79
+   },
+   "clearanceStatus": "CLEARED"
+  },
+  {
+   "documentId": "DOC-DE-00030",
+   "invoiceNumber": "RG-00030",
+   "sourceRef": "DE-00030",
+   "sellerParty": {
+    "name": "Atlas Beverages GmbH",
+    "country": "DE"
+   },
+   "totals": {
+    "net": 23357.21,
+    "tax": 4437.87
+   },
+   "clearanceStatus": "CLEARED"
+  }
+ ]
+}
