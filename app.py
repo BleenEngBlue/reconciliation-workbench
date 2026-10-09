@@ -1,5 +1,5 @@
 """
-Reconciliation Workbench — HITL exception review (Gradio UI).
+Tax Reconciliation Workbench — HITL exception review (Gradio UI).
 
 STANDARDS THIS FILE EMBODIES:
   Req 1 (reusable architecture): thin UI over four swappable stages
@@ -230,7 +230,7 @@ def connector_run():
                 f"{t['unexplained_flags (false positives)']} unexplained flags**")
         return head, pd.DataFrame(rows), ev
     except Exception as e:  # demo-safe: never crash the app from this tab
-        return f"_Connector demo unavailable: {type(e).__name__}_", pd.DataFrame(), ""
+        return f"_Connector demo unavailable: {type(e).__name__}_", pd.DataFrame(columns=CONN_COLS), ""
 
 
 def _who(request: gr.Request) -> str:
@@ -242,9 +242,22 @@ def _who(request: gr.Request) -> str:
         return "local-operator"          # never let identity lookup crash a click
 
 
+# ---- Table header alignment (Gradio 6 virtual tables) ----
+# Gradio renders the header in its own <table class="header-table"> apart from
+# the body, so any padding on it shifts every header right of its column.
+TABLE_CSS = """
+#queue-table table.header-table,
+#log-table table.header-table,
+#conn-table table.header-table {
+  padding-left: 0 !important;
+}
+"""
+
+CONN_COLS = ["exc_id", "severity", "check", "tier", "conf", "jurisdiction", "summary"]
+
 # ---------------------------------------------------------------- the UI
-with gr.Blocks(title="Reconciliation Workbench -- compliance prototype") as demo:
-    gr.Markdown("# Reconciliation Workbench\n"
+with gr.Blocks(title="Tax Reconciliation Workbench -- compliance prototype") as demo:
+    gr.Markdown("# Tax Reconciliation Workbench\n"
                 "**Deterministic core · AI at the edges · humans at the points of "
                 "consequence.**  Prototype of compliance case — "
                 "synthetic multi-entity data, seeded errors, measured evals.")
@@ -256,7 +269,7 @@ with gr.Blocks(title="Reconciliation Workbench -- compliance prototype") as demo
     with gr.Tab("1 · Overview"):                     # tie-out + gates
         summary_box = gr.Markdown()
     with gr.Tab("2 · Exception queue (HITL)"):       # the review workflow
-        queue_box = gr.Dataframe(interactive=False, wrap=True,
+        queue_box = gr.Dataframe(interactive=False, wrap=True, elem_id="queue-table",
                                  column_widths=["8%", "9%", "15%", "17%", "6%",
                                                 "15%", "30%"])
         with gr.Row():
@@ -269,7 +282,7 @@ with gr.Blocks(title="Reconciliation Workbench -- compliance prototype") as demo
             override_btn = gr.Button("✋ Override / escalate", variant="stop")
         outcome_box = gr.Markdown()                  # confirmation + gate status
         gr.Markdown("### Decision log — the audit evidence trail")
-        log_box = gr.Dataframe(interactive=False, wrap=True,
+        log_box = gr.Dataframe(interactive=False, wrap=True, elem_id="log-table",
                                column_widths=["9%", "14%", "16%", "17%", "10%",
                                               "12%", "13%", "9%"])
         with gr.Row():
@@ -282,7 +295,15 @@ with gr.Blocks(title="Reconciliation Workbench -- compliance prototype") as demo
                     "the pipeline can't tell this data didn't come from the generator.")
         conn_btn = gr.Button("Run connector-fed pipeline", variant="primary")
         conn_head = gr.Markdown()
-        conn_queue = gr.Dataframe(interactive=False, wrap=True)
+        # Fixed pixel widths: header and body share them, so they stay aligned,
+        # and ids/tiers do not wrap. The table scrolls sideways when narrow.
+        # Real headers up front: an empty Dataframe otherwise shows Gradio's
+        # placeholder "1 2 3" headers until the pipeline has run.
+        conn_queue = gr.Dataframe(interactive=False, wrap=True, elem_id="conn-table",
+                                  headers=CONN_COLS, col_count=(len(CONN_COLS), "fixed"),
+                                  value=pd.DataFrame(columns=CONN_COLS),
+                                  column_widths=["105px", "95px", "180px", "190px",
+                                                 "65px", "200px", "420px"])
         conn_eval = gr.Markdown()
 
     def _approve(i, note, request: gr.Request):
@@ -315,6 +336,6 @@ if __name__ == "__main__":
     # every decision-log row.
     _u, _p = os.getenv("RECONCILIATION_AUTH_USER"), os.getenv("RECONCILIATION_AUTH_PASS")
     if _u and _p:
-        demo.launch(auth=(_u, _p))   # authenticated public mode
+        demo.launch(auth=(_u, _p), css=TABLE_CSS)   # authenticated public mode
     else:
-        demo.launch()                # localhost demo mode
+        demo.launch(css=TABLE_CSS)                  # localhost demo mode
