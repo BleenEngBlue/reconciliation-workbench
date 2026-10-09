@@ -300,7 +300,7 @@ with gr.Blocks(title="Tax Reconciliation Workbench -- compliance prototype") as 
         # Real headers up front: an empty Dataframe otherwise shows Gradio's
         # placeholder "1 2 3" headers until the pipeline has run.
         conn_queue = gr.Dataframe(interactive=False, wrap=True, elem_id="conn-table",
-                                  headers=CONN_COLS, col_count=(len(CONN_COLS), "fixed"),
+                                  headers=CONN_COLS, column_count=(len(CONN_COLS), "fixed"),
                                   value=pd.DataFrame(columns=CONN_COLS),
                                   column_widths=["105px", "95px", "180px", "190px",
                                                  "65px", "200px", "420px"])
