@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Gradio local cache
+.gradio/
+flagged/
+
+# Local run artifacts
+decision_log_*.csv
+results_recon.json
+
+# Editor and OS clutter
+.history/
+.DS_Store
+Thumbs.db
